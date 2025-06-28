@@ -40,5 +40,5 @@ jobs:
           curl -X POST "$SLACK_WEBHOOK" \
             -H "Content-Type: application/json" \
             -d '{
-              "text": "🚨 *Login to Matsuri HR API failed!* Status code: '${{ steps.login.outputs.status_code }}'"
+              "text": "From Eric Monitor!! 🚨 *Login to Matsuri HR API failed!* Status code: '${{ steps.login.outputs.status_code }}'"
             }'
